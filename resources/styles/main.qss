@@ -1,0 +1,33 @@
+QWidget { font-family: "Microsoft YaHei UI", "Microsoft YaHei", sans-serif; font-size: 14px; color: #24364b; }
+QMainWindow, QScrollArea, QStackedWidget { background: #f3f6fa; }
+QWidget#sidebar { background: #142a43; }
+QLabel#brand { color: #f5faff; font-size: 22px; font-weight: 700; padding-bottom: 5px; }
+QLabel#sideSubtitle { color: #a7bfd5; font-size: 12px; padding-bottom: 12px; }
+QListWidget#navigation { background: transparent; border: none; outline: none; color: #c9d8e7; }
+QListWidget#navigation::item { padding: 10px 12px; margin: 2px 0; border-radius: 6px; }
+QListWidget#navigation::item:selected { background: #276bb1; color: white; }
+QListWidget#navigation::item:hover:!selected { background: #203d59; }
+QLabel#header { background: white; border-bottom: 1px solid #dce4ed; font-size: 18px; font-weight: 600; padding: 20px 30px; }
+QLabel#pageTitle { font-size: 27px; font-weight: 700; }
+QLabel#muted { color: #63768a; font-size: 13px; }
+QLabel#metricValue { color: #1e5d9b; font-size: 29px; font-weight: 700; }
+QFrame#metricCard, QFrame#panel { background: white; border: 1px solid #dce5ef; border-radius: 9px; padding: 12px; }
+QFrame#panel QLabel, QFrame#metricCard QLabel { border: none; background: transparent; padding: 3px; }
+QLabel#sectionTitle { font-weight: 600; font-size: 16px; }
+QPushButton { background: #2168ac; color: white; border: none; border-radius: 6px; padding: 10px 18px; }
+QPushButton:hover { background: #18538d; }
+QPushButton:focus { border: 2px solid #76aadb; }
+QStatusBar { background: white; color: #64758a; border-top: 1px solid #dce4ed; }
+QScrollBar:vertical { width: 12px; background: #edf2f7; }
+QScrollBar::handle:vertical { background: #b4c6d8; min-height: 30px; border-radius: 5px; }
+
+QTableView { background: white; alternate-background-color: #f3f7fb; gridline-color: #e3eaf1; border: 1px solid #dce5ef; selection-background-color: #d5e8fa; selection-color: #183652; }
+QHeaderView::section { background: #e9f0f7; padding: 6px; border: none; }
+QComboBox, QPlainTextEdit { background: white; border: 1px solid #ccd9e6; padding: 5px; }
+QPushButton:disabled { background: #9baebf; }
+QProgressBar { border: 1px solid #dce5ef; border-radius: 3px; text-align: center; max-height: 18px; }
+QProgressBar::chunk { background: #4b91bd; }
+QTabBar::tab { padding: 10px 18px; background: #e5edf5; }
+QTabBar::tab:selected { background: white; color: #2168ac; }
+
+QLabel#compactMetricValue { color: #1e5d9b; font-size: 18px; font-weight: 700; }

@@ -1,0 +1,58 @@
+# Python environments and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Credentials and personal configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets.*
+/config/user_config*
+
+# Only reviewed synthetic demo data may be versioned
+/data/*
+!/data/demo/
+/data/demo/*
+!/data/demo/demo_bts_flights.csv
+!/data/demo/demo_historical_flights.csv
+!/data/demo/demo_schedule_flights.csv
+
+# Local database, logs, exports and serialized model assets
+*.db
+*.db-*
+*.sqlite*
+*.log*
+/logs/
+/output/
+/models/*
+!/models/README.md
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+
+# Private application materials, historical reports and archives
+/docs/software_copyright*/
+/PROJECT_STATUS.md
+/STAGE*_ACCEPTANCE.md
+*.zip
+*.7z
+*.bak

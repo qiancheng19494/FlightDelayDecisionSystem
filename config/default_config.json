@@ -1,0 +1,21 @@
+{
+  "version": "V1.0",
+  "default_model": "Random Forest",
+  "default_threshold": 0.5,
+  "data_directory": "data/raw",
+  "export_directory": "output",
+  "page_size": 100,
+  "log_level": "INFO",
+  "theme": "light",
+  "window_width": 1440,
+  "window_height": 900,
+  "csv_chunksize": 100000,
+  "copy_imported_files": false,
+  "quality_cache_version": 1,
+  "historical_features": {
+    "min_entity_history": 1,
+    "window_mode": "EXPANDING",
+    "drop_exact_duplicates": false,
+    "enable_leakage_audit": true
+  }
+}

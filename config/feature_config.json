@@ -1,0 +1,39 @@
+{
+  "status": "stage4_implemented_no_training",
+  "groups": {
+    "A": "基础静态及计划信息",
+    "T": "时间及计划派生",
+    "H": "仅使用 date < D 的历史统计",
+    "C": "计划拥堵代理"
+  },
+  "forbidden_predictors": [
+    "DEP_DELAY",
+    "ARR_DELAY",
+    "DEP_TIME",
+    "ARR_TIME",
+    "CANCELLED"
+  ],
+  "history_rule": "source_date < target_date",
+  "feature_schema_version": 1,
+  "paper_combinations_confirmed": false,
+  "combination_framework": "all_16_subsets_including_empty",
+  "schedule_context": "explicit_known_schedule_only",
+  "time_of_day": {
+    "NIGHT": [
+      0,
+      6
+    ],
+    "MORNING": [
+      6,
+      12
+    ],
+    "AFTERNOON": [
+      12,
+      18
+    ],
+    "EVENING": [
+      18,
+      24
+    ]
+  }
+}
